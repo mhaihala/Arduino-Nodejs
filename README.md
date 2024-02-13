@@ -8,6 +8,11 @@ The Arduino code currently connects to WiFi for possibility of wireless data tra
 In order for this setup to work you need to:
 Install => "DHT Sensor library" + "Adafruit Unified Sensor" library for Arduino (WiFiNINA is optional for the WiFi capabilities).
 
+DHT11 Sensor connection to the Arduino board ==> Black/- to GRND, Red/+ to 5V, Green/Data to Digital 2
+
+![IMG_20240213_103605](https://github.com/mhaihala/DHT11-to-HTML/assets/149393029/8ea34700-72b2-42ee-85fb-07fa90e9defd)
+
+
 To see what COM port you are using with the Arduino app:
 
 ![image](https://github.com/mhaihala/DHT11-to-HTML/assets/149393029/f0aeedc7-9baf-4104-a699-ddfc1a765651)
