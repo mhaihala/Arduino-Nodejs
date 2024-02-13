@@ -30,6 +30,8 @@ Video of setup in use:
 
 [![Video of code](https://img.youtube.com/vi/z-D6T3KnEGo/0.jpg)](https://www.youtube.com/watch?v=z-D6T3KnEGo)
 
+The code in "Arduino.js" and "package.json" has been cleaned up since the video but still functions essentially the same way.
+
 
 Shamelessly stolen from Adam Thomas:
 https://github.com/codeadamca/arduino-to-nodejs/tree/main
