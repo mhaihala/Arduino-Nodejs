@@ -19,7 +19,8 @@ To see what COM port you are using with the Arduino app:
 
 To get specs of COM port use "mode" in cmd:
 
-![image](https://github.com/mhaihala/DHT11-to-HTML/assets/149393029/155574e2-9082-40bb-a65e-8d399b9ff2e4)
+![image](https://github.com/mhaihala/DHT11-to-HTML/assets/149393029/2693e44e-f819-4e98-98cb-b8ae85110662)
+
 
 Change parameters accordingly:
 
