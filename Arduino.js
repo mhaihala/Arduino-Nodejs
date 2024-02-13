@@ -1,16 +1,16 @@
-var http = require('http');
-var fs = require('fs');
-var index = fs.readFileSync( 'index.html');
+import { createServer } from "http";
+import { readFileSync } from "fs";
+import socket from "socket.io";
+import SerialPort from "serialport";
 
 
-var SerialPort = require("serialport");
-const parsers = SerialPort.parsers;
+const index = readFileSync("index.html");
 
-const parser = new parsers.Readline({
+const parser = new SerialPort.parsers.Readline({
     delimiter: '\r\n'
 });
 
-var port = new SerialPort('COM5',{                  // Port Parameters
+const port = new SerialPort('COM5',{                  // Port Parameters
     baudRate: 9600,
     dataBits: 8,
     parity: 'none',
@@ -20,13 +20,13 @@ var port = new SerialPort('COM5',{                  // Port Parameters
 
 port.pipe(parser);
 
-var app = http.createServer(function(req, res){
+const app = createServer(function(req, res){
 
     res.writeHead(200, {'Content-Type': 'text/html'});
     res.end(index);
 });
 
-var io = require('socket.io').listen(app);
+const io = socket.listen(app);
 
 io.on('connection', function(data){
 
