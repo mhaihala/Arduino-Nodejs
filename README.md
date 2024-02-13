@@ -26,10 +26,7 @@ Change parameters accordingly in "Arduino.js" for the "const port":
 
 ![image](https://github.com/mhaihala/DHT11-to-HTML/assets/149393029/f70a56ed-cb71-4409-ae29-7d57d73d1657)
 
-
-
-
-
+Video of setup in use:
 
 [![Video of code](https://img.youtube.com/vi/z-D6T3KnEGo/0.jpg)](https://www.youtube.com/watch?v=z-D6T3KnEGo)
 
